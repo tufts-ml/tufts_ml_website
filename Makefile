@@ -42,13 +42,8 @@ help:
 	@echo 'Set the RELATIVE variable to 1 to enable relative urls                    '
 	@echo '                                                                          '
 
-organizer_images:
-	cd $(INPUTDIR)/images/ && bash create_folder_of_square_crops.sh headshots_raw/ headshots_200x200/ 200
 
-organizers: organizer_images
-	cd $(INPUTDIR)/organizer_data/ && python make_page__organizers.py
-
-html:
+html: courses_page events_page headshots
 	$(PELICAN) $(INPUTDIR) -o $(OUTPUTDIR) -s $(CONFFILE) $(PELICANOPTS)
 
 clean:
@@ -95,9 +90,28 @@ rsync_upload: publish
 .PHONY: html help clean regenerate serve serve-global devserver publish ssh_upload rsync_upload dropbox_upload ftp_upload s3_upload cf_upload github
 
 
+## PEOPLE PAGE
 
 headshots:
 	cd $(INPUTDIR)/images/ && bash create_folder_of_square_crops.sh headshots_raw/ headshots_200x200/ 200
 
-events:
+
+## COURSES PAGE
+
+course_logos:
+	cd $(INPUTDIR)/images/ && bash create_folder_of_square_crops.sh course_logos/ course_logos_200x200/ 200
+
+content/pages/courses.md: course_logos content/courses/*.csv
+	cd $(INPUTDIR)/courses/ && python make_page__courses.py
+
+courses_page: content/pages/courses.md
+
+
+## EVENTS PAGE
+
+content/pages/events.md:
 	cd $(INPUTDIR)/events/ && python make_page__events.py
+
+events_page: content/pages/events.md
+
+
