@@ -1,0 +1,8 @@
+DATE,YEAR,MONTH_NAME,MONTH_NUM,DAY_OF,TYPE,TITLE,SPEAKER,TIME,LOCATION,ABSTRACT,URL
+09/05,2018,SEP,9,05,Colloquium,"Human-in-the-Loop AI for Autonomous Problem Solving (or why humans ruin the best things)","Kartik Talamadupula, IBM",3:00PM,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1223
+09/27,2018,SEP,9,27,Colloquium,"Bayesian Nonparametric Machine Learning for Discrete Random Structures","Diana Cai (Princeton)",3:00PM,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1227
+10/04,2018,OCT,10,04,Colloquium,"Online Algorithms for Extreme Clustering and Automated Integration of Crowdsourced Feedback","Ari Kobren (University of Massachusetts, Amherst)",3:00PM,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1231
+10/11,2018,OCT,10,11,Guest Lecture,"Horseshoe Priors for Bayesian Neural Networks","Soumya Ghosh (IBM Research)",3:00PM,Halligan 111A,,https://www.cs.tufts.edu/comp/150BDL/2018f/schedule.html#10-11
+10/12,2018,OCT,10,12,PhD Thesis Defense,"Algorithms and Theory for Variational Inference in Two-level Non-conjugate Models","Rishit Sheth",10:00AM,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1221
+10/26,2018,OCT,10,26,PhD Thesis Defense,"Incremental and Memory-Limited Probabilistic Generative Models of Early Word Learning","Sepideh Sadeghi",10:00AM,Halligan 209,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1232
+11/06,2018,NOV,11,06,Colloquium,"Data Science Humanely","Carlos Scheidegger (University of Arizona)",3:00PM,Halligan 102,,http://www.cs.tufts.edu/t/colloquia/current/?event=1235
