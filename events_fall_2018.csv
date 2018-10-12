@@ -1,2 +1,4 @@
-year,month_name,month_num,date,type,title,speaker,abstract,url
-2018,SEP,9,5,Colloquium,"Human-in-the-Loop AI for Autonomous Problem Solving (or why humans ruin the best things)","Kartik Talamadupula, IBM",todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1223
+year,month_name,month_num,date,type,title,speaker,time,location,abstract,url
+2018,SEP,9,5,Colloquium,"Human-in-the-Loop AI for Autonomous Problem Solving (or why humans ruin the best things)","Kartik Talamadupula, IBM",3:00PM,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1223
+2018,SEP,9,27,Colloquium,"Bayesian Nonparametric Machine Learning for Discrete Random Structures","Diana Cai (Princeton)",3:00PM,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1227
+2018,OCT,10,4,Colloquium,"Online Algorithms for Extreme Clustering and Automated Integration of Crowdsourced Feedback","Ari Kobren (University of Massachusetts, Amherst)",3:00PM,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1231
