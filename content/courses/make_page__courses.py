@@ -15,10 +15,10 @@ semname_and_csvfile_pairs = [
 main_item_template_str = \
 """
     <div class="row row-striped">
-        <div class="col-2 text-right">
+        <div class="d-none d-sm-block col-sm-2 text-right">
             <img src="{{COURSE_IMG}}" class="img-fluid mw-100" alt="Responsive image">
         </div>
-        <div class="col-10">
+        <div class="col-12 col-sm-10">
             <h3>
             <a href="{{COURSE_URL}}">
                 <strong>
@@ -35,7 +35,7 @@ main_item_template_str = \
 
 
 
-out_md_str = "Title: Machine Learning Courses at Tufts \nDate: %s\nsave_as: courses.html" % (
+out_md_str = "Title: Courses \nDate: %s\nsave_as: courses.html" % (
     today_timestamp)
 
 out_md_str += (
@@ -43,7 +43,7 @@ out_md_str += (
 <!-- THIS PAGE SRC IS AUTO GENERATED. At terminal: $ make courses_page -->
 
 
-Below you can find a listing of relevant courses in the Tufts CS department related to Machine Learning.
+Below you can find a listing of courses in the Tufts CS department related to Machine Learning.
 
 \n""")
 
@@ -55,7 +55,8 @@ for sec_title, csv_fpath in semname_and_csvfile_pairs:
     assert csv_df.shape[0] > 0
 
     anchor = sec_title.lower().replace(' ', '-')
-    out_md_str += "\n<h2><a name='%s'>Courses: %s</a></h2>" % (anchor, sec_title)
+    out_md_str += "\n<a name='%s'></a>" % (anchor)
+    out_md_str += "\n<h2>Courses: %s</h2>" % (sec_title)
 
     ## Main team names, images, + links
     out_md_str += '\n\n\n<div class="container">'

@@ -1,11 +1,12 @@
 Title: People
-Date: 2018-06-01
+Date: 2018-08-01
 save_as: people.html
 
 
-### Primary Faculty
 
 <div class="container">
+
+<h3>Primary Faculty</h3>
 
 
 <div class="row display-flex">
@@ -53,17 +54,15 @@ save_as: people.html
     </div>
   </div>
 </div><!-- end col -->
-
 </div> <!-- end row -->
 <br />
 
 
-### Related Faculty
+<h3>Related Faculty</h3>
 
 <div class="row display-flex">
-<div class="card-group">
 
-<div class="col-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto" src="images/headshots_200x200/jivko.jpg" alt="Jivko Sinapov's Headshot"">
     <div class="card-body">
@@ -87,7 +86,7 @@ save_as: people.html
 
 
 
-<div class="col-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto"
           src="images/headshots_200x200/shuchin.jpg"
@@ -107,7 +106,7 @@ save_as: people.html
 
 
 
-<div class="col-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto"
           src="images/headshots_200x200/anselm.jpg"
@@ -124,20 +123,20 @@ save_as: people.html
   </div>
 </div><!-- end col -->
 
-</div> <!-- end cardgroup -->
 </div> <!-- end row -->
-<br />
 
 
 
 
-### Graduate Students
+<h3>Graduate Students</h3>
 
 <div class="row display-flex">
 
-<div class="col-4"> 
-  <div class="card bg-light mb-3" style="border=0px;">
-    <img class="card-img-top mw-100" src="https://via.placeholder.com/200x200" alt="TODO">
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto"
+          src="https://via.placeholder.com/200x200"
+          alt="Placeholder">
     <div class="card-body">
       <h4 class="card-title">TODO</h4>
       <p class="card-text">todo todo todo

@@ -4,9 +4,14 @@ from __future__ import unicode_literals
 import os
 
 AUTHOR = u'Mike Hughes'
-SITENAME = u'Machine Learning Research @ Tufts CS'
-SITESUBTITLE = 'Models, Algorithms, and Applications'
-DESCRIPTION = 'TODO'
+SITENAME = u'Machine Learning @ Tufts CS'
+SITESUBTITLE = 'ML Research Group : Models, Algorithms, and Applications'
+DESCRIPTION = (
+    """
+    Home of faculty and students at Tufts University's
+    Department of Computer Science who conduct research in machine learning.
+    """
+    )
 
 if 'SITEURL' in os.environ:
     SITEURL = os.environ['SITEURL']
@@ -28,6 +33,7 @@ LINKS = [
     ('People', 'people.html'),
     ('Events', 'events.html'),
     ('Courses', 'courses.html'),
+    ('Hiring', 'hiring.html'),
 ]
 
 STATIC_PATHS = ['images', 'extra/favicon.ico']

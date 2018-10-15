@@ -43,6 +43,11 @@
   <meta name="theme-color" content="#333333">
   {% endif %}
 
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+  <script src="{{ SITEURL }}/theme/js/icsFormatter.js"></script>
+
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/bootstrap.min.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/font-awesome.min.css">
   <link rel="stylesheet" href="{{ SITEURL }}/theme/css/pygments/{{ PYGMENTS_STYLE|default('default') }}.min.css">
@@ -55,46 +60,74 @@
 
 <body>
   <header class="header">
+    <nav class="navbar navbar-expand-lg navbar-expand-md navbar-light bg-light">
     <div class="container">
-      <div class="row display-flex">
+    <div class="row display-flex">
         {% if SITEIMAGE %}
-        <div class="col-2">
+        <div class="col-2 col-sm-2 d-md-none"><!-- hidden if md or lg -->
+        <button type="button" class="navbar-toggler" data-toggle="collapse"
+            data-target="#my_collapsing_navbar"
+            aria-controls="my_collapsing_navbar"
+            aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon mw-100"></span>
+        </button>
+        </div>
+
+        <div class="d-none d-md-block col-md-2">
           <a href="{{ SITEURL }}/">
             <img class="img-fluid mw-100" src={{ SITEURL }}{{ SITEIMAGE }} alt="{{ SITENAME }}">
           </a>
         </div>
-        {% endif %}
-        <div class="col-{% if SITEIMAGE %}10{% else %}12{% endif %}">
-          <h1 class="title"><a href="{{ SITEURL }}/">{{ SITENAME }}</a></h1>
+        <div class="col-10 col-sm-10 col-md-10">
+          <h1 class="text-left" style="word-break:'break-all'">
+            <a href="{{ SITEURL }}/">{{ SITENAME }}</a>
+          </h1>
+
           {% if SITESUBTITLE %}
-          <p class="text-muted">{{ SITESUBTITLE }}</p>
+          <p class="text-muted text-left d-none d-md-block mw-100">
+            {{ SITESUBTITLE }}
+          </p>
           {% endif %}
-          {% if LINKS or (DISPLAY_PAGES_ON_MENU and pages) or ICONS %}
-          <ul class="list-inline">
-            {% for title, link in LINKS %}
-            <li class="list-inline-item"><a href="{{ link }}">{{ title }}</a></li>
-            {% endfor %}
-            {% if DISPLAY_PAGES_ON_MENU %}
-            {% for page in pages %}
-            {% if LINKS and loop.first %}
-            <li class="list-inline-item text-muted">|</li>
-            {% endif %}
-            {% if page.title|length > 0 and not page.skipnavbar is defined %}
-            <li class="list-inline-item"><a href="{{ SITEURL }}/{{ page.url }}">{{ page.title }}</a></li>
-            {% endif %}
-            {% endfor %}
-            {% endif %}
-            {% for icon, link in ICONS %}
-            {% if (LINKS or (DISPLAY_PAGES_ON_MENU and pages)) and loop.first %}
-            <li class=" list-inline-item text-muted">|</li>
-            {% endif %}
-            <li class="list-inline-item"><a class="fa fa-{{ icon }}" href="{{ link }}"></a></li>
-            {% endfor %}
-          </ul>
+
+
+
+          {% if LINKS or (DISPLAY_PAGES_ON_MENU and pages) %}
+          <div class="collapse navbar-collapse" id="my_collapsing_navbar">
+                <ul class="navbar-nav">
+                  {% for title, link in LINKS %}
+                  <li class="nav-item text-left">
+                    <a href="{{ link }}">{{ title }}</a>
+                  </li>
+                  {% endfor %}
+
+                  {% if DISPLAY_PAGES_ON_MENU %}
+                  {% for page in pages %}
+                    {% if LINKS and loop.first %}
+                    <li class="nav-item text-muted">|</li>
+                    {% endif %}
+                    {% if page.title|length > 0 and not page.skipnavbar is defined %}
+                      <li class="nav-item text-left">
+                        <a href="{{ SITEURL }}/{{ page.url }}">
+                          {{ page.title }}
+                        </a>
+                      </li>
+                    {% endif %}
+                  {% endfor %}
+                  {% endif %}
+                </ul>
+          </div>
           {% endif %}
+
+
         </div>
-      </div>
+
+        {% endif %}
+
+
     </div>
+    </div>
+    </nav>
+
   </header>
 
   <div class="main">
@@ -126,7 +159,7 @@
           {% endif %}
         </ul>
         <p class="col-sm-6 text-sm-right text-muted">
-          CC-BY-SA
+          MIT License
           /
           <a href="https://github.com/tufts-ml/tufts_ml_website">
           Source on github

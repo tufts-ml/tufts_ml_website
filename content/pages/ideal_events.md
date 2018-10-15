@@ -22,7 +22,23 @@ save_as: ideal_events.html
                 <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> Cafe</li>
             </ul>
             <p>Lorem ipsum dolsit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+            <button type="button" class="btn btn-primary btn-xs"
+                    onclick="
+                    d=new Date('2018-10-03T12:00:00PM');
+                    downloadICS('MyTitle', 'Halligan 102',d, 60);">
+                Download .ICS
+            </button>
+
+
         </div>
 
 </div>
 </div>
+
+<!--
+                onclick="my_alert('hello');">
+                            onclick="downloadICS(
+                            'MyTitle', 'Halligan 102',
+                            new Date('2018/10/04 12:30', 60);">
+-->
+

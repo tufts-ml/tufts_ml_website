@@ -14,24 +14,34 @@ event_files = [
 main_item_template_str = \
 """
     <div class="row row-striped">
-        <div class="col-2 text-right">
-            <h1 class="display-4"><span class="badge badge-secondary">
+        <div class="d-none d-sm-block col-sm-2 text-left">
+            <h2 class="pb-0 mb-0">{{MONTH_NAME}}</h2>
+            <h1 class="pt-0 mt-0 display-4">
+            <span class="badge badge-secondary">
                 {{DAY_OF}}
-            </span></h1>
-            <h2>{{MONTH_NAME}}</h2>
+            </span>
+            </h1>
         </div>
-        <div class="col-10">
-            <h3>
+        <div class="col-12 col-sm-10">
+            <h3 class="mw-100">
             <a href="{{URL}}">
                 <strong>
                     {{TYPE}}: {{TITLE}}
                 </strong>
             </a>
             </h3>
-            <ul class="list-inline">
-                <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i>{{DATE}}</li>
-                <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> {{TIME}} </li>
-                <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i>{{LOCATION}}</li>
+            <ul class="list-inline mw-100">
+                <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> {{DATE}} </li>
+                <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> {{TIME_STR}} </li>
+                <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> {{LOCATION}} </li>
+                <li class="list-inline-item">
+                    <button type="button" class="btn btn-primary btn-xs"
+                        onclick="
+                            d=new Date('{{YEAR}}-{{MONTH_NUM}}-{{DAY_OF}}T{{TIME24_STR}}');
+                            downloadICS('{{TITLE}}','{{LOCATION}}',d,60);">
+                    Download .ics
+                    </button>
+                </li>
             </ul>
             <p>
             Speaker: {{SPEAKER}}
@@ -49,10 +59,11 @@ out_md_str += (
 """\n
 <!-- THIS PAGE SRC IS AUTO GENERATED. At terminal: $ make events -->
 
-
-We keep a short list of events relevant to machine learning here.
+We keep a short list of special events on campus or nearby relevant to machine learning here.
 
 For the latest information about these events, click the links below or see the primary source: <a href="https://engineering.tufts.edu/cs/events">Tufts CS Events Webpage</a>
+
+<b>Reading group</b>: Interested research students are also invited to our machine learning reading group (we meet once a week). For details, please contact a faculty member.
 
 \n""")
 
@@ -60,12 +71,13 @@ For the latest information about these events, click the links below or see the 
 
 for title, fpath in event_files:
 
-    csv_df = pd.read_csv(fpath, dtype={'DAY_OF':'str'})
+    csv_df = pd.read_csv(fpath, dtype={'DAY_OF':'str', 'MONTH_NUM':'str'})
     csv_df = csv_df.fillna('') # Fill missing values with blanks
     assert csv_df.shape[0] > 0
 
     anchor = title.lower().replace(' ', '-')
-    out_md_str += "\n<h2><a name='%s'>Events: %s</a></h2>" % (anchor, title)
+    out_md_str += "\n<a name='%s'></a>" % (anchor)
+    out_md_str += "\n<h2>Events: %s</h2>" % (title)
 
     ## Main team names, images, + links
     out_md_str += '\n\n\n<div class="container">'

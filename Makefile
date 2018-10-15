@@ -101,7 +101,7 @@ headshots:
 course_logos:
 	cd $(INPUTDIR)/images/ && bash create_folder_of_square_crops.sh course_logos/ course_logos_200x200/ 200
 
-content/pages/courses.md: course_logos content/courses/*.csv
+content/pages/courses.md: course_logos content/courses/*.csv content/courses/make_page__courses.py
 	cd $(INPUTDIR)/courses/ && python make_page__courses.py
 
 courses_page: content/pages/courses.md
@@ -109,7 +109,7 @@ courses_page: content/pages/courses.md
 
 ## EVENTS PAGE
 
-content/pages/events.md:
+content/pages/events.md: content/events/make_page__events.py content/events/*.csv
 	cd $(INPUTDIR)/events/ && python make_page__events.py
 
 events_page: content/pages/events.md
