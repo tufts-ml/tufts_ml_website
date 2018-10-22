@@ -7,15 +7,19 @@ Serving the groups of Prof. Liping Liu and Prof. Mike Hughes.
 ## Quick links
 
 How to:
-* [Add an event to the events page](#add-event)
+* [Add an event to the events page](#add-events)
 * [Add a person to the people page](#add-people)
 * [Add a course to the courses page](#add-course)
-* [Build website from source](#build-website)
+* [Build website from source](#how-to-build-website-from-source)
 * [Install dependencies](#install-dependencies)
 
 
+## Add events
 
-## How to build the website from source
+Step 1: Add 
+
+
+## How to build website from source
 ```
 $ make html         # Build static site on local machine, in output/ folder
 $ make serve        # Serve website locally (runs in background). To view, point your favorite browser to: localhost:8000
