@@ -1,6 +1,19 @@
 # Tufts ML Research Group Website
 
-Source code for the Tufts ML research group website from 2018-present. Serving the groups of Prof. Liping Liu and Prof. Mike Hughes.
+Source code for the Tufts ML research group website from 2018-present.
+
+Serving the groups of Prof. Liping Liu and Prof. Mike Hughes.
+
+## Quick links
+
+How to:
+* [Add an event to the events page](#add-event)
+* [Add a person to the people page](#add-people)
+* [Add a course to the courses page](#add-course)
+* [Build website from source](#build-website)
+* [Install dependencies](#install-dependencies)
+
+
 
 ## How to build the website from source
 ```
@@ -16,7 +29,7 @@ $ SSH_USER=____ SSH_HOST=____ SSH_TARGET_DIR=____  make rsync_upload
 This will upload the files to SSH_USER@SSH_HOST:SSH_TARGET_DIR via rsync.
 
 
-## Dependencies
+## Install Dependencies
 
 * Pelican: http://blog.getpelican.com/
 * Markdown
