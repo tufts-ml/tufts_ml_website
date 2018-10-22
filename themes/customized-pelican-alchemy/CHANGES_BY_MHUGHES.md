@@ -1,1 +1,1 @@
-* Added responsive navbar to LINKS
+* Added responsive navbar to LINKS (collapses when window is sm or xs)
