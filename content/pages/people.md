@@ -127,7 +127,7 @@ save_as: people.html
 
 
 
-
+<!-- TODO add students
 <h3>Graduate Students</h3>
 
 <div class="row display-flex">
@@ -148,7 +148,7 @@ save_as: people.html
 
 </div> <!-- end row -->
 <br />
-
+-->
 
 
 <!-- end container -->
