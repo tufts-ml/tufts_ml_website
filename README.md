@@ -16,7 +16,34 @@ How to:
 
 ## Add events
 
-Step 1: Add 
+1) Add a row to the appropriate CSV file
+
+2) Then do `make html` to rebuild from source.
+
+Event files:
+
+* [events_2018_fall.csv](./content/events/events_2018_fall.csv)
+
+
+## Add people
+
+1) Edit by hand the file: [people.md](./content/pages/people.md)
+
+2) The do `make html` to rebuild from source
+
+## Add course
+
+0) New semester? Add a new CSV file and update the list at the top of [make_page__courses.py](./content/courses/make_page__courses.py)
+
+1) Add a row to the appropriate CSV file
+
+2) Then do `make html` to rebuild from source.
+
+Course files:
+
+* [courses_2018_fall.csv](./content/courses/courses_2018_fall.csv)
+* [courses_2018_spring.csv](./content/courses/courses_2018_spring.csv)
+
 
 
 ## How to build website from source
@@ -37,13 +64,12 @@ This will upload the files to SSH_USER@SSH_HOST:SSH_TARGET_DIR via rsync.
 
 * Pelican: http://blog.getpelican.com/
 * Markdown
+* Pandas (for reading/writing csv files)
 
 #### Installing dependencies with conda (recommended)
 
-$ conda install -c conda-forge pelican=3.7.0
+```
+$ conda install -c conda-forge pelican
 $ conda install markdown
-
-#### Installing with pip
-
-$ pip install pelican
-$ pip install markdown
+$ conda install pandas
+```
