@@ -123,11 +123,35 @@ save_as: people.html
   </div>
 </div><!-- end col -->
 
+
+
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto"
+          src="images/headshots_200x200/matthias.jpg"
+          alt="Matthias's Headshot">
+    <div class="card-body">
+      <h4 class="card-title">Matthias Scheutz</h4>
+      <p class="card-text">
+          <strong>Professor (CS)</strong>
+      </p>
+      <p class="card-text">
+          Interests: learning from instructions and observations, hierarchical Bayesian models, Dempster-Shafer
+theory
+      </p>
+      <p class="card-text">
+          Applications: Robotics
+      </p>
+      <a href="https://engineering.tufts.edu/cs/people/faculty/matthias-scheutz" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
+
+
 </div> <!-- end row -->
 
 
 
-<!-- TODO add students
 <h3>Graduate Students</h3>
 
 <div class="row display-flex">
@@ -135,20 +159,48 @@ save_as: people.html
 <div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto"
-          src="https://via.placeholder.com/200x200"
-          alt="Placeholder">
+          src="images/headshots_200x200/dbanco.jpg"
+          alt="Dan Banco Headshot">
     <div class="card-body">
-      <h4 class="card-title">TODO</h4>
-      <p class="card-text">todo todo todo
+      <h4 class="card-title">Daniel Banco</h4>
+      <p class="card-text">
+        Interests:
+          Machine learning, Imaging, Computer Vision
       </p>
-      <a href="#" class="btn btn-primary">Personal Site</a>
+      <p class="card-text">
+        Applications: 
+          Materials characterization, MRI
+      </p>
+      <a href="https://www.eecs.tufts.edu/~dbanco02/" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
+
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto"
+          src="images/headshots_200x200/dylan.jpg"
+          alt="Dylan Headshot">
+    <div class="card-body">
+      <h4 class="card-title">Dylan Cashman</h4>
+      <p class="card-text">
+        Interests:
+          Interactive Machine Learning,
+          Visualization for Interpretable AI,
+          Human-centered Model Selection
+      </p>
+      <p class="card-text">
+        Applications: 
+          Cybersecurity,
+          Language
+      </p>
+      <a href="https://www.cs.tufts.edu/~dcashm01" class="btn btn-primary">Personal Site</a>
     </div>
   </div>
 </div><!-- end col -->
 
 </div> <!-- end row -->
 <br />
--->
 
 
 <!-- end container -->
