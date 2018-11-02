@@ -104,27 +104,6 @@ save_as: people.html
   </div>
 </div><!-- end col -->
 
-
-
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
-  <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
-          src="images/headshots_200x200/anselm.jpg"
-          alt="Anselm's Headshot">
-    <div class="card-body">
-      <h4 class="card-title">Anselm Blumer</h4>
-      <p class="card-text">
-          <strong>Associate Prof. Emeritus (CS)</strong>
-      </p>
-      <p class="card-text">
-      </p>
-      <a href="https://engineering.tufts.edu/cs/people/faculty/anselm-blumer" class="btn btn-primary">Personal Site</a>
-    </div>
-  </div>
-</div><!-- end col -->
-
-
-
 <div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto"
@@ -146,6 +125,24 @@ theory
     </div>
   </div>
 </div><!-- end col -->
+
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto"
+          src="images/headshots_200x200/anselm.jpg"
+          alt="Anselm's Headshot">
+    <div class="card-body">
+      <h4 class="card-title">Anselm Blumer</h4>
+      <p class="card-text">
+          <strong>Associate Prof. Emeritus (CS)</strong>
+      </p>
+      <p class="card-text">
+      </p>
+      <a href="https://engineering.tufts.edu/cs/people/faculty/anselm-blumer" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
+
 
 
 </div> <!-- end row -->
