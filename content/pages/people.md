@@ -199,7 +199,7 @@ theory
 <div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto"
-          src="images/headshots_200x200/kevin.jpg"
+          src="images/headshots_200x200/Kevin.jpg"
           alt="Kevin Headshot">
     <div class="card-body">
       <h4 class="card-title">Kevin Cheng</h4>
