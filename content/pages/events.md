@@ -1,5 +1,5 @@
 Title: Events
-Date: 2018-10-14
+Date: 2018-11-23
 save_as: events.html
 
 <!-- THIS PAGE SRC IS AUTO GENERATED. At terminal: $ make events -->
@@ -271,6 +271,117 @@ For the latest information about these events, click the links below or see the 
             </ul>
             <p>
             Speaker: Carlos Scheidegger (University of Arizona)
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row row-striped">
+        <div class="d-none d-sm-block col-sm-2 text-left">
+            <h2 class="pb-0 mb-0">NOV</h2>
+            <h1 class="pt-0 mt-0 display-4">
+            <span class="badge badge-secondary">
+                29
+            </span>
+            </h1>
+        </div>
+        <div class="col-12 col-sm-10">
+            <h3 class="mw-100">
+            <a href="http://www.cs.tufts.edu/t/colloquia/current/?event=1242">
+                <strong>
+                    Colloquium: Reliable Decision-Support using Counterfactual models
+                </strong>
+            </a>
+            </h3>
+            <ul class="list-inline mw-100">
+                <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> 11/29 </li>
+                <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 3:00PM </li>
+                <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> Halligan 102 </li>
+                <li class="list-inline-item">
+                    <button type="button" class="btn btn-primary btn-xs"
+                        onclick="
+                            d=new Date('2018-11-29T15:00');
+                            downloadICS('Reliable Decision-Support using Counterfactual models','Halligan 102',d,60);">
+                    Download .ics
+                    </button>
+                </li>
+            </ul>
+            <p>
+            Speaker: Peter Schulam (Johns Hopkins)
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row row-striped">
+        <div class="d-none d-sm-block col-sm-2 text-left">
+            <h2 class="pb-0 mb-0">DEC</h2>
+            <h1 class="pt-0 mt-0 display-4">
+            <span class="badge badge-secondary">
+                06
+            </span>
+            </h1>
+        </div>
+        <div class="col-12 col-sm-10">
+            <h3 class="mw-100">
+            <a href="http://www.cs.tufts.edu/t/colloquia/current/?event=1244">
+                <strong>
+                    Colloquium: Aurum: A Data Discovery System
+                </strong>
+            </a>
+            </h3>
+            <ul class="list-inline mw-100">
+                <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> 12/06 </li>
+                <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 3:00PM </li>
+                <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> Halligan 102 </li>
+                <li class="list-inline-item">
+                    <button type="button" class="btn btn-primary btn-xs"
+                        onclick="
+                            d=new Date('2018-12-06T15:00');
+                            downloadICS('Aurum: A Data Discovery System','Halligan 102',d,60);">
+                    Download .ics
+                    </button>
+                </li>
+            </ul>
+            <p>
+            Speaker: Raul Castro Fernandez (MIT)
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row row-striped">
+        <div class="d-none d-sm-block col-sm-2 text-left">
+            <h2 class="pb-0 mb-0">DEC</h2>
+            <h1 class="pt-0 mt-0 display-4">
+            <span class="badge badge-secondary">
+                13
+            </span>
+            </h1>
+        </div>
+        <div class="col-12 col-sm-10">
+            <h3 class="mw-100">
+            <a href="http://www.cs.tufts.edu/t/colloquia/current/?event=1245">
+                <strong>
+                    Colloquium: Streaming Data Analytics
+                </strong>
+            </a>
+            </h3>
+            <ul class="list-inline mw-100">
+                <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> 12/13 </li>
+                <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 3:00PM </li>
+                <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> Halligan 102 </li>
+                <li class="list-inline-item">
+                    <button type="button" class="btn btn-primary btn-xs"
+                        onclick="
+                            d=new Date('2018-12-13T15:00');
+                            downloadICS('Streaming Data Analytics','Halligan 102',d,60);">
+                    Download .ics
+                    </button>
+                </li>
+            </ul>
+            <p>
+            Speaker: Erieta Liarou (Vertica)
             </p>
         </div>
     </div>

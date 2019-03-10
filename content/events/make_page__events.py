@@ -8,6 +8,7 @@ today_timestamp = datetime.datetime.today().strftime('%Y-%m-%d')
 
 ## TODO to add more event sections just update this list
 event_files = [
+    ('Spring 2019', 'events_2019_spring.csv')
     ('Fall 2018', 'events_2018_fall.csv')
     ]
 

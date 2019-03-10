@@ -85,6 +85,26 @@ save_as: people.html
 </div><!-- end col -->
 
 
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto" src="images/headshots_200x200/james.jpg" alt="James Murphy's Headshot"">
+    <div class="card-body">
+      <h4 class="card-title">James Murphy</h4>
+      <p class="card-text">
+          <strong>Assistant Prof. (Mathematics)</strong>
+      </p>
+      <p class="card-text">
+          Interests: Harmonic analysis, high-dimensional statistics, statistical and machine learning, statistical signal processing, image processing 
+      </p>
+      <p class="card-text">
+        Courses: <a href="https://jmurphy.math.tufts.edu/Teaching/Fall2018/"> MATH 123: Math Aspects of Data Analysis</a>
+      </p>
+      <a href="https://jmurphy.math.tufts.edu/" class="btn btn-primary">Personal Site</a>
+      </div>
+  </div>
+</div><!-- end col -->
+
+
 
 <div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">

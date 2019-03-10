@@ -20,7 +20,7 @@ Faculty Job Application<br />(via Tufts CS website)
 
 ## 2018-19 Ph.D. Hiring
 
-Prof. Hughes is looking for several new Ph.D. students interested in machine learning research to to join his new research group at Tufts CS.
+Prof. Hughes is looking for several new Ph.D. students interested in machine learning research to to join his new research group at Tufts CS. Prof. Liping Liu is also interested in strong applicants.
 
 For more information or to start an application, please click here:
 

@@ -1,0 +1,8 @@
+DATE,YEAR,MONTH_NAME,MONTH_NUM,DAY_OF,TYPE,TITLE,SPEAKER,TIME_STR,TIME24_STR,LOCATION,ABSTRACT,URL
+01/28,2019,JAN,01,28,Colloquium,"Learning from Natural Language Supervision","Shashank Srivastava, CMU",3:00PM,15:00,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1251
+01/31,2019,JAN,01,31,Colloquium,"Algorithmic Human-Robot Interaction for All People","Elaine Short, UT-Austin",3:00PM,15:00,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1250
+02/04,2019,FEB,02,04,Colloquium,"Structured Approaches to Natural Language Understanding","Snighda Chaturvedi, UCSC",3:00PM,15:00,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1252
+02/07,2019,FEB,02,07,Colloquium,"Natural Language Understanding for Events and Participants in Text","Rachel Rudinger, Johns Hopkins",3:00PM,15:00,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1253
+03/04,2019,MAR,03,04,Colloquium,"Data Enrichment for Data Science","Fatemeh Nargesian, U. Toronto",3:00PM,15:00,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1260
+
+

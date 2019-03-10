@@ -9,17 +9,17 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
-        Tufts Prof. Mike Hughes is organizing two workshops at the upcoming NIPS 2018 conference
+        Tufts Prof. Mike Hughes is organizing two workshops at the upcoming NeurIPS 2018 conference
     </h5>
     <ul>
         <li>
             <a href="https://sites.google.com/view/nipsbnp2018">
-                All of Bayesian Nonparametrics (BNP @ NIPS 2018)
+                All of Bayesian Nonparametrics (BNP @ NeurIPS 2018)
             </a>
         </li>
         <li>
             <a href="https://ml4health.github.io/2018/">
-                Machine Learning for Health (ML4H @ NIPS 2018)
+                Machine Learning for Health (ML4H @ NeurIPS 2018)
             </a>
         </li>
     </ul>

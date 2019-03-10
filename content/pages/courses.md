@@ -1,5 +1,5 @@
 Title: Courses 
-Date: 2018-11-02
+Date: 2018-11-29
 save_as: courses.html
 
 <!-- THIS PAGE SRC IS AUTO GENERATED. At terminal: $ make courses_page -->
