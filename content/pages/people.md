@@ -255,6 +255,30 @@ theory
   </div>
 </div><!-- end col -->
 
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto"
+          src="images/headshots_200x200/kevin.jpg"
+          alt="Kevin Headshot">
+    <div class="card-body">
+      <h4 class="card-title">Kevin Cheng</h4>
+      <p class="card-text">
+        Interests:
+          Medical Imaging,
+          Machine Learning,
+          Signal and Image Processing
+      </p>
+      <p class="card-text">
+        Applications: 
+          Cognitive Science,
+          System Modeling,
+          Healthcare
+      </p>
+      <a href="https://www.eecs.tufts.edu/~kcheng/" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
+
 </div> <!-- end row -->
 <br />
 
