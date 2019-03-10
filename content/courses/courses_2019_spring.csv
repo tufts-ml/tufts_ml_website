@@ -1,2 +1,3 @@
 YEAR,SEMESTER,COURSE_NUM,COURSE_TITLE,COURSE_URL,COURSE_IMG,INSTRUCTOR
-2018,spring,COMP 135,Intro to Machine Learning,https://www.eecs.tufts.edu/~liulp/courses/comp135-2018-spring/,images/course_logos_200x200/intro_ml_image.jpg,Prof. Liping Liu
+2019,spring,COMP 135,Intro to Machine Learning,http://www.cs.tufts.edu/comp/135/2019s/,images/course_logos_200x200/intro_ml_image.jpg,Prof. Mike Hughes
+2019,spring,COMP 150,Deep Neural Networks,https://www.eecs.tufts.edu/~liulp/courses/comp150dnn/,images/course_logos_200x200/dnn_image.jpg,Prof. Liping Liu

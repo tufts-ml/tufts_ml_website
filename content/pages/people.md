@@ -87,6 +87,29 @@ save_as: people.html
 
 <div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto"
+          src="images/headshots_200x200/matthias.jpg"
+          alt="Matthias's Headshot">
+    <div class="card-body">
+      <h4 class="card-title">Matthias Scheutz</h4>
+      <p class="card-text">
+          <strong>Professor (CS)</strong>
+      </p>
+      <p class="card-text">
+          Interests: learning from instructions and observations, hierarchical Bayesian models, Dempster-Shafer
+theory
+      </p>
+      <p class="card-text">
+          Applications: Robotics
+      </p>
+      <a href="https://engineering.tufts.edu/cs/people/faculty/matthias-scheutz" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
+
+
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto" src="images/headshots_200x200/james.jpg" alt="James Murphy's Headshot"">
     <div class="card-body">
       <h4 class="card-title">James Murphy</h4>
@@ -106,6 +129,25 @@ save_as: people.html
 
 
 
+
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto"
+          src="images/headshots_200x200/deborah.jpg"
+          alt="Deborah's Headshot">
+    <div class="card-body">
+      <h4 class="card-title">Deborah Sunter</h4>
+      <p class="card-text">
+          <strong>Assistant Prof. (Mech. E.)</strong>
+      </p>
+      <p class="card-text">
+        Interests: computational modeling, data science, sustainability, energy policy
+      </p>
+      <a href="https://engineering.tufts.edu/people/faculty/deborah-sunter" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
+
 <div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto"
@@ -114,7 +156,7 @@ save_as: people.html
     <div class="card-body">
       <h4 class="card-title">Shuchin Aeron</h4>
       <p class="card-text">
-          <strong>Assistant Prof. (ECE)</strong>
+          <strong>Associate Prof. (ECE)</strong>
       </p>
       <p class="card-text">
         Interests: statistical signal processing, information theory, convex optimization
@@ -127,21 +169,18 @@ save_as: people.html
 <div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto"
-          src="images/headshots_200x200/matthias.jpg"
-          alt="Matthias's Headshot">
+          src="images/headshots_200x200/alva.jpg"
+          alt="Alva's Headshot">
     <div class="card-body">
-      <h4 class="card-title">Matthias Scheutz</h4>
+      <h4 class="card-title">Alva Couch</h4>
       <p class="card-text">
           <strong>Professor (CS)</strong>
       </p>
       <p class="card-text">
-          Interests: learning from instructions and observations, hierarchical Bayesian models, Dempster-Shafer
+          Interests: Geo-informatics, Data Science, Recommendation Systems
 theory
       </p>
-      <p class="card-text">
-          Applications: Robotics
-      </p>
-      <a href="https://engineering.tufts.edu/cs/people/faculty/matthias-scheutz" class="btn btn-primary">Personal Site</a>
+      <a href="http://www.cs.tufts.edu/~couch/" class="btn btn-primary">Personal Site</a>
     </div>
   </div>
 </div><!-- end col -->
