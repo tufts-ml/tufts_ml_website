@@ -9,6 +9,20 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
+        Prof. Liping Liu's project on self-attention neural networks is funded by NSF  
+    </h5>
+    <p class="card-text">The project, titled by "CRII: RI: Self-Attention through the Bayesian Lens", wins an NSF CRII grant. Here is the 
+    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1850358&HistoricalAwards=false">link</a>
+    </p>
+  </div>
+</div>
+
+
+
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
         Tufts Prof. Mike Hughes is organizing two workshops at the upcoming NeurIPS 2018 conference
     </h5>
     <ul>
