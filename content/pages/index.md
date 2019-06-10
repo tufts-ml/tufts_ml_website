@@ -24,7 +24,7 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
         Linfeng Liu's paper on amortized inference for Gaussian processes is published at AISTATS 2019  
     </h5>
     <p class="card-text">The paper "Amortized Variational Inference with Graph Convolutional
-    Networks for Gaussian Processes" [<a href="http://proceedings.mlr.press/v89/liu19c/liu19c.pdf">link</a>] proposes a new efficient inference method for Gaussian processes. It decomposes the inference task into local sub-tasks at neighborhoods and use a shared inference network to amortize computation cost.  
+    Networks for Gaussian Processes" [<a href="http://proceedings.mlr.press/v89/liu19c/liu19c.pdf">link</a>] proposes a new efficient inference method for Gaussian processes. It decomposes the inference task into sub-tasks at local neighborhoods and use a shared inference network to amortize computation cost.  
     </p>
   </div>
 </div>
