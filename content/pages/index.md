@@ -9,6 +9,33 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
+        Prof. Liping Liu's project on self-attention neural networks is funded by NSF  
+    </h5>
+    <p class="card-text">The project, titled by "CRII: RI: Self-Attention through the Bayesian Lens", wins an NSF CRII grant. Here is the 
+    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1850358&HistoricalAwards=false">link</a>.
+    </p>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
+        Linfeng Liu's paper on amortized inference for Gaussian processes is published at AISTATS 2019  
+    </h5>
+    <p class="card-text">The paper "Amortized Variational Inference with Graph Convolutional
+    Networks for Gaussian Processes" [<a href="http://proceedings.mlr.press/v89/liu19c/liu19c.pdf">link</a>] proposes a new efficient inference method for Gaussian processes. It decomposes the inference task into sub-tasks at local neighborhoods and use a shared inference network to amortize computation cost.  
+    </p>
+  </div>
+</div>
+
+
+
+
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
         Tufts Prof. Mike Hughes is organizing two workshops at the upcoming NeurIPS 2018 conference
     </h5>
     <ul>
