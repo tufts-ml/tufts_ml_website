@@ -9,7 +9,33 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
-        Prof. Liping Liu's project on self-attention neural networks is funded by NSF  
+        Nov 2019: Team research project on Open-World AI is funded by DARPA via the SAIL-ON program
+    </h5>
+    <p class="card-text">
+      This project is led by PI Matthias Scheutz, with co-PIs Jivko Sinapov, Mike Hughes, and Liping Liu.
+      SAIL-ON stands for "Science of Artificial Intelligence and Learning for Open-world Novelty".
+      More about the program:
+        <a href="https://www.darpa.mil/news-events/2019-02-14">DARPA SAIL-ON Announcement</a>.
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
+        Sep 2019: Prof. Liping Liu and Prof. Mike Hughes' project on inference for large graphical models is funded by NSF  
+    </h5>
+    <p class="card-text">The project, titled by "Amortized Inference for Large-Scale Graphical Models", wins an NSF Small grant from the Division of Information and Intelligent Systems. Here is the 
+    <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1908617">link</a>.
+    </p>
+  </div>
+</div>
+
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
+        Mar 2019: Prof. Liping Liu's project on self-attention neural networks is funded by NSF  
     </h5>
     <p class="card-text">The project, titled by "CRII: RI: Self-Attention through the Bayesian Lens", wins an NSF CRII grant. Here is the 
     <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1850358&HistoricalAwards=false">link</a>.
@@ -21,7 +47,7 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
-        Linfeng Liu's paper on amortized inference for Gaussian processes is published at AISTATS 2019  
+        Feb 2019: Linfeng Liu's paper on amortized inference for Gaussian processes is published at AISTATS 2019  
     </h5>
     <p class="card-text">The paper "Amortized Variational Inference with Graph Convolutional
     Networks for Gaussian Processes" [<a href="http://proceedings.mlr.press/v89/liu19c/liu19c.pdf">link</a>] proposes a new efficient inference method for Gaussian processes. It decomposes the inference task into sub-tasks at local neighborhoods and use a shared inference network to amortize computation cost.  
@@ -30,13 +56,10 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 </div>
 
 
-
-
-
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
-        Tufts Prof. Mike Hughes is organizing two workshops at the upcoming NeurIPS 2018 conference
+        Dec 2018: Tufts Prof. Mike Hughes is organizing two workshops at the upcoming NeurIPS 2018 conference
     </h5>
     <ul>
         <li>
@@ -56,7 +79,7 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
-        Fall 2018 semester has many courses related to ML
+        Fall 2018 semester: Many courses related to ML
     </h5>
     <ul>
         <li> <a href="https://www.eecs.tufts.edu/~liulp/courses/comp135-2018-fall/">COMP 135 Intro to Machine Learning</a> by Prof. Liu </li>

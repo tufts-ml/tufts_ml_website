@@ -169,6 +169,24 @@ theory
 <div class="col-6 col-md-4 d-flex align-items-stretch"> 
   <div class="card bg-light my-3" style="border=0px;">
     <img class="card-img-top w-50 mx-auto"
+          src="images/headshots_200x200/eric.jpg"
+          alt="Eric's Headshot">
+    <div class="card-body">
+      <h4 class="card-title">Eric Miller</h4>
+      <p class="card-text">
+          <strong>Professor (ECE)</strong>
+      </p>
+      <p class="card-text">
+        Interests: signal processing, inverse problems, image processing
+      </p>
+      <a href="https://www.ece.tufts.edu/~elmiller/elmhome/" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
+
+<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top w-50 mx-auto"
           src="images/headshots_200x200/alva.jpg"
           alt="Alva's Headshot">
     <div class="card-body">

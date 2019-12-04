@@ -8,6 +8,7 @@ today_timestamp = datetime.datetime.today().strftime('%Y-%m-%d')
 
 ## TODO to add more event sections just update this list
 event_files = [
+    ('Fall 2019', 'events_2019_fall.csv'),
     ('Spring 2019', 'events_2019_spring.csv'),
     ('Fall 2018', 'events_2018_fall.csv'),
     ]
@@ -82,8 +83,8 @@ for title, fpath in event_files:
 
     ## Main team names, images, + links
     out_md_str += '\n\n\n<div class="container">'
-    for item_id, row_obj in enumerate(csv_df.itertuples()):
-        row_dict = row_obj.__dict__
+    for item_id, (row_id, row_df) in enumerate(csv_df.iterrows()):
+        row_dict = row_df.to_dict()
         item_str = main_item_template_str + ""
         for key, val in row_dict.items():
             if key == 'URL':

@@ -18,7 +18,7 @@ fi
 
 for jpg_input_fpath in `ls $inputdir/*.jpg`
 do
-    jpg_output_fpath=`python -c "print '$jpg_input_fpath'.replace('$inputdir', '$outputdir')"`
+    jpg_output_fpath=`python -c "print('$jpg_input_fpath'.replace('$inputdir', '$outputdir'))"`
 
     echo "$jpg_input_fpath -> $jpg_output_fpath"
 

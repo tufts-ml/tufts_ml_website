@@ -34,9 +34,6 @@ if __name__ == '__main__':
     m_D[0] += 200
     x_ND = x_ND * s_D[np.newaxis,:] + m_D[np.newaxis,:]
 
-    print x_ND.min(axis=0)
-    print x_ND.max(axis=0)
-
     #color_list = ['#377eb8', '#ff7f00', '#4daf4a']
     color_list = ['#ff7f00', '#4daf4a']
     for kk in range(2):
