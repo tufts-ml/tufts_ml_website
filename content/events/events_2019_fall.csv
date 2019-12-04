@@ -1,0 +1,4 @@
+DATE,YEAR,MONTH_NAME,MONTH_NUM,DAY_OF,TYPE,TITLE,SPEAKER,TIME_STR,TIME24_STR,LOCATION,ABSTRACT,URL
+09/12,2019,SEP,09,12,Colloquium,"Towards More Automated Machine Learning: High-Dimensional Bayesian Optimization and Probabilistic Neural Architecture Search","Nicola Fusi, Microsoft Research",3:00PM,15:00,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1274
+11/07,2019,NOV,11,7,Colloquium,"What is your data worth? Quantifying the value of data in machine learning","James Zou, Stanford",3:00PM,15:00,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1282
+11/19,2019,NOV,11,19,Doctoral Thesis Defense,"Characterizing Pathway-Specific Anomalies in Temporal Patterns of Gene Expression","Michael Pietras",3:00PM,15:00,Halligan 102,todo,http://www.cs.tufts.edu/t/colloquia/current/?event=1288

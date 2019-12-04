@@ -1,0 +1,5 @@
+YEAR,SEMESTER,COURSE_NUM,COURSE_TITLE,COURSE_URL,COURSE_IMG,INSTRUCTOR
+2020,spring,COMP 135,Intro to Machine Learning,http://www.cs.tufts.edu/comp/135/,images/course_logos_200x200/intro_ml_image.jpg,Prof. Marty Allen
+2020,spring,COMP 136,Statistical Pattern Recognition,https://cs.tufts.edu/comp/136/2020s,images/course_logos_200x200/pattern_recognition_image.jpg,Prof. Mike Hughes
+2020,fall,COMP 131,Artificial Intelligence,https://www.cs.tufts.edu/comp/131/,images/course_logos_200x200/ai_image.jpg,Prof. Fabrizio Santini
+2020,spring,COMP 150-PR,Probabilistic Robotics for HRI,https://www.eecs.tufts.edu/~jsinapov/teaching/comp150_ProbRobs/,images/course_logos_200x200/prob_robotics_image.jpg,Prof. Jivko Sinapov

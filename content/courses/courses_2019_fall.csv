@@ -1,0 +1,6 @@
+YEAR,SEMESTER,COURSE_NUM,COURSE_TITLE,COURSE_URL,COURSE_IMG,INSTRUCTOR
+2019,fall,COMP 135,Intro to Machine Learning,https://www.cs.tufts.edu/comp/135/,images/course_logos_200x200/intro_ml_image.jpg,Prof. Marty Allen
+2019,fall,COMP 131,Artificial Intelligence,https://www.cs.tufts.edu/comp/131/,images/course_logos_200x200/ai_image.jpg,Prof. Fabrizio Santini
+2019,fall,COMP 150-MLG,Machine Learning for Graph Analytics,https://www.eecs.tufts.edu/~liulp/courses/comp150mlg/,images/course_logos_200x200/dnn_image.jpg,Prof. Liping Liu
+2019,fall,COMP 150-BDL,Bayesian Deep Learning,https://www.cs.tufts.edu/comp/150BDL/2019f/,images/course_logos_200x200/bdl_image.jpg,Prof. Mike Hughes
+2019,fall,COMP 150,Reinforcement Learning,https://www.eecs.tufts.edu/~jsinapov/teaching/comp150_RL_Fall2019/,images/course_logos_200x200/reinforce_image.jpg,Prof. Jivko Sinapov
