@@ -1,4 +1,4 @@
 YEAR,SEMESTER,COURSE_NUM,COURSE_TITLE,COURSE_URL,COURSE_IMG,INSTRUCTOR
 2018,fall,COMP 135,Intro to Machine Learning,https://www.eecs.tufts.edu/~liulp/courses/comp135-2018-fall/,images/course_logos_200x200/intro_ml_image.jpg,Prof. Liping Liu
-2018,fall,COMP 150,Bayesian Deep Learning,https://www.cs.tufts.edu/comp/150BDL/2018f/,images/course_logos_200x200/bdl_image.jpg,Prof. Mike Hughes
-2018,fall,COMP 150,Reinforcement Learning,https://www.eecs.tufts.edu/~jsinapov/teaching/comp150_RL/,images/course_logos_200x200/reinforce_image.jpg,Prof. Jivko Sinapov
+2018,fall,COMP 150-BDL,Bayesian Deep Learning,https://www.cs.tufts.edu/comp/150BDL/2018f/,images/course_logos_200x200/bdl_image.jpg,Prof. Mike Hughes
+2018,fall,COMP 150-RL,Reinforcement Learning,https://www.eecs.tufts.edu/~jsinapov/teaching/comp150_RL/,images/course_logos_200x200/reinforce_image.jpg,Prof. Jivko Sinapov

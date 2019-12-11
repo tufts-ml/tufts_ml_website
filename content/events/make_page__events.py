@@ -75,6 +75,7 @@ for title, fpath in event_files:
 
     csv_df = pd.read_csv(fpath, dtype={'DAY_OF':'str', 'MONTH_NUM':'str'})
     csv_df = csv_df.fillna('') # Fill missing values with blanks
+    csv_df.sort_values("DATE", inplace=True, ascending=False)
     assert csv_df.shape[0] > 0
 
     anchor = title.lower().replace(' ', '-')

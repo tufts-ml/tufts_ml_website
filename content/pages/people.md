@@ -215,7 +215,7 @@ theory
       </p>
       <p class="card-text">
       </p>
-      <a href="https://engineering.tufts.edu/cs/people/faculty/anselm-blumer" class="btn btn-primary">Personal Site</a>
+      <a href="https://www.cs.tufts.edu/~ablumer/" class="btn btn-primary">Personal Site</a>
     </div>
   </div>
 </div><!-- end col -->

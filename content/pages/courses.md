@@ -1,5 +1,5 @@
 Title: Courses 
-Date: 2019-12-04
+Date: 2019-12-10
 save_as: courses.html
 
 <!-- THIS PAGE SRC IS AUTO GENERATED. At terminal: $ make courses_page -->
@@ -180,7 +180,7 @@ Below you can find a listing of courses in the Tufts CS department related to Ma
             <h3>
             <a href="https://www.eecs.tufts.edu/~jsinapov/teaching/comp150_RL_Fall2019/">
                 <strong>
-                    COMP 150: Reinforcement Learning
+                    COMP 150-RL: Reinforcement Learning
                 </strong>
             </a>
             </h3>
@@ -287,7 +287,7 @@ Below you can find a listing of courses in the Tufts CS department related to Ma
             <h3>
             <a href="https://www.cs.tufts.edu/comp/150BDL/2018f/">
                 <strong>
-                    COMP 150: Bayesian Deep Learning
+                    COMP 150-BDL: Bayesian Deep Learning
                 </strong>
             </a>
             </h3>
@@ -306,7 +306,7 @@ Below you can find a listing of courses in the Tufts CS department related to Ma
             <h3>
             <a href="https://www.eecs.tufts.edu/~jsinapov/teaching/comp150_RL/">
                 <strong>
-                    COMP 150: Reinforcement Learning
+                    COMP 150-RL: Reinforcement Learning
                 </strong>
             </a>
             </h3>
