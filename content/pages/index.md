@@ -9,6 +9,16 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
+        Aug. 2020: Welcome Prof. Bert Huang
+    </h5>
+    <p class="card-text">Bert joins us as new faculty in the Computer Science dept. and the Data Intensive Studies Center</p>
+    <a href="https://berthuang.com/" class="btn btn-primary">Meet Bert</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
         Nov 2019: Team research project on Open-World AI is funded by DARPA via the SAIL-ON program
     </h5>
     <p class="card-text">
@@ -25,7 +35,7 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
     <h5 class="card-title">
         Sep 2019: Prof. Liping Liu and Prof. Mike Hughes' project on inference for large graphical models is funded by NSF  
     </h5>
-    <p class="card-text">The project, titled by "Amortized Inference for Large-Scale Graphical Models", wins an NSF Small grant from the Division of Information and Intelligent Systems. Here is the 
+    <p class="card-text">The project, titled by "Amortized Inference for Large-Scale Graphical Models", wins an NSF Small grant from the Division of Information and Intelligent Systems. Here is the
     <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1908617">link</a>.
     </p>
   </div>
@@ -37,7 +47,7 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
     <h5 class="card-title">
         Mar 2019: Prof. Liping Liu's project on self-attention neural networks is funded by NSF  
     </h5>
-    <p class="card-text">The project, titled by "CRII: RI: Self-Attention through the Bayesian Lens", wins an NSF CRII grant. Here is the 
+    <p class="card-text">The project, titled by "CRII: RI: Self-Attention through the Bayesian Lens", wins an NSF CRII grant. Here is the
     <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1850358&HistoricalAwards=false">link</a>.
     </p>
   </div>
@@ -109,4 +119,3 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
     <a href="https://www.eecs.tufts.edu/~liulp/" class="btn btn-primary">Meet Liping</a>
   </div>
 </div>
-

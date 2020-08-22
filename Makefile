@@ -73,7 +73,7 @@ $(INPUTDIR)/pages/people.md: headshots
 ## COURSES PAGE
 
 course_logos:
-	cd $(INPUTDIR)/images/ && bash create_folder_of_square_crops.sh course_logos/ course_logos_200x200/ 200
+	cd $(INPUTDIR)/images/ && bash create_folder_of_square_crops.sh course_logos_raw/ course_logos_200x200/ 200
 
 $(INPUTDIR)/pages/courses.md: course_logos $(INPUTDIR)/courses/*.csv $(INPUTDIR)/courses/make_page__courses.py
 	cd $(INPUTDIR)/courses/ && python make_page__courses.py
@@ -87,5 +87,3 @@ $(INPUTDIR)/pages/events.md: $(INPUTDIR)/events/make_page__events.py $(INPUTDIR)
 	cd $(INPUTDIR)/events/ && python make_page__events.py
 
 events_page: $(INPUTDIR)/pages/events.md
-
-
