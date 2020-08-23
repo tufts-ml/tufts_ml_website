@@ -1,0 +1,3 @@
+DATE,YEAR,MONTH_NAME,MONTH_NUM,DAY_OF,TYPE,TITLE,SPEAKER,TIME_STR,TIME24_STR,LOCATION,ABSTRACT,URL
+01/31,2020,JAN,01,31,Event,"Launch of the NSF-funded TRIPODS institute at Tufts","Several internal and external speakers",9:00AM,09:00,TBD,todo,https://tripods.tufts.edu/about/events/tripods-launch-event
+03/19,2020,MAR,03,19,Event,"TRIPODS IDEAS Lab","Several internal and external speakers",9:00AM,09:00,TBD,todo,https://tripods.tufts.edu/about/events/1st-tripods-ideas-lab

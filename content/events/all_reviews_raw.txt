@@ -1,0 +1,48 @@
+## Review 1
+
+2: (accept)
+Summary: The authors aim to predict enzyme activity, a pressing problem in biology, which is made challenging by the lack of labelled negative cases. They leverage the hierarchical nature of enzyme classification, along with the use of inhibitors as negative examples and also use an approach of weighting unlabelled classes to successfully train a random forest based model to predict enzyme promiscuity.
+
+Assessment of contribution: I believe this work addresses a unique and interesting problem in biology and make 3 main improvements over previous work in this area - the use of inhibitors as negative examples, performing per-sample confidence weighting based on substructure, and utilizing the hierarchical nature of enzyme nomenclature to build their predictor. The authors make a convincing case that all three of these contributions improve the prediction on this problem.
+
+Value to workshop: I think this is quite a valuable paper to the workshop as it not only makes contributions to a particular task in biology but I think the solutions they present might have broader implications for other tasks in biology where labelled data can be sparse or imbalanced and similar approaches as done here may be of some help. Additionally, their use of prior biological information in the form of the hierarchical enzyme classification plays into a broader conversation around using domain knowledge to build better, more interpretable models. I think this work could start some interesting conversations and potential collaborations as its results go beyond the narrow problem they focus on.
+
+Presentation of work: To highlight some areas for improvement, I think the work could have included a better presentation of the results beyond the simple table. I think showing those results in the form of some graph or plot (bar plot, ROC curve) would be both nicer to look at and easier to see the difference between methods. On a similar note, I think there could have been more emphasis on some explanation/interpretation of results and some inclusion of future work or limitations. While I recognize that the 4 page limit is short, I think some parts of explanation of methods and metrics etc could have been shortened to make room for more discussion on the results and what impacts they might have on this particular problem and the broader field in general.
+
+
+## Review 2
+
+Overall evaluation:	
+-2: (reject)
+This paper is related to modelling the promiscuity of enzymes with respect to different substrate molecules. The promiscuity is generally divided into catalytic promiscuity and substrate promiscuity, where the first problem asks if an enzyme is involved in multiple different reaction mechanisms, and the second asks if the enzyme has multiple different substrate molecules.
+
+In this paper the authors focus on a narrow version of the substrate promiscuity problem, where the enzymes are only represented by their EC classifications, disregarding their other characteristics such as sequence, structure, expression, etc.) The input consists of the descriptors of the molecules the output consists of the multilabel vector of EC codes.
+The authors propose to use a random forest and a cascaded random forest (however this method was poorly described, so difficult to review fully) to predict the EC classes of each input molecule.
+
+The authors recognise the problem of lack of explicit negative examples, and propose using known inhibitor molecules as part of the negative examples, ‘hard negatives', which is a good idea to me. In addition they use also study confidence weighting by tanimoto similarity.
+
+The experiments show that making use of the multilabel hierarchy helps compared to training independent classifiers for the leaves. This is not a surprise, however, it is well known in the hierarchical ML literature. The inclusion of the hard negatives has by far the most crucial role for accurate predictors.
+
+I have the following concerns:
+- There is a large literature of hierarchical multilabel classifiers, and some of the have been used to predict the EC or GO taxonomies, admittedly typically focused on the wider problem of predicting the functional classes of enzymes. The authors do not seem to be aware of this earlier related literature. There are also papers that focus specifically on enzyme promiscuity (e.g. Carbonnell et al, https://academic.oup.com/bioinformatics/article/26/16/2012/215921, Oberhardt et al. 2016). I understand the space limitations but a reference to most important earlier works does not take much space.
+- The description of the RF cascade is not sufficient to understand how it works exactly. The method should be described including the equations and pseudocode. Also, the method should be contrasted to existing methods in the literature.
+- The relevance of the studied problem. Promiscuity is inherently a question about enzyme-metabolite pairs. The current setup assumes that the promiscuity can be solely predicted from the metabolite, ignoring most of the enzyme characteristics. While I appreciate that the present way of representing enzymes can bring insight to promiscuity, a richer representation of enzymes could provide better explanation of why certain enzyme-metabolite links exist and others don’t.
+- The sufficiency of data. Unfortunately, I think the current databases (including BRENDA) cover the substrate space only in a limited way - besides the substrates annotated in the database, there might be a large set of additional substrates for the same enzyme that have not been annotated. Thus my fear is that the training data might not be sufficient to distill the correct sets of substrates.
+
+## Review 3
+
+Overall evaluation:	
+2: (accept)
+This manuscript presents a classification strategy for predicting enzyme-substrate interactions. The main contribution is a hierarchical model that can take advantage of the hierarchical structure of the 4-level Enzyme Commission database that describes enzyme specificity. A binary random forest classifier first predicts whether the enzymes in a top level Enzyme Commission category act upon a substrate. Then, at each of the three subsequent levels in the Enzyme Commission tree, random forest regression models predict the residual error from the parent category. In addition, the manuscript defines a weighting scheme for unlabeled substrates. These are assumed to be negative, but in order to account for the error of that assumption, an instance weight is assigned. The weight is based on the chemical structural similarity to substrates with positive labels.
+
+The greatest strengths of this work are that it adapts the problem formulation to the domain, using the hierarchical structure of the Enzyme Commission numbers and avoiding assumptions that all unlabeled substrates are negative or should be treated uniformly. In addition, the results compare the final classifier to variants that do not use the instance weighting, hierarchical structure, or inhibitors during training to directly show how much these modeling choices improve performance. Importantly, the experimental design is of high quality overall. The methods describe setting aside labeled inhibitors as a final test set and nested cross-validation for hyperparameter tuning. The presentation and writing are very clear as well.
+
+This work is certainly relevant to biology and provides workshop attendees an example of how to customize models to fit the structure of a biological dataset. Unlabeled data are common in other biological applications, and best practices for weighting or imputing unlabeled instances could stimulate discussion at the workshop.
+
+Major comments:
+1) The description of sampling the negative data indicates that unlabeled instances were discarded so that the number of positives is equal to the number of unlabeled + negative instances. This would throw out many unlabeled instances. There could be better ways to using an additional weighting factor or resampling during training to avoid discarding these instances entirely.
+
+2) It is difficult given the limited space, but there is not much discussion of how reference [14] on other prior work has approached this problem. Because the only evaluations are against variations of the final model, as opposed to other independent approaches, it is difficult to assess how strong the empirical results are.
+
+Minor comments:
+3) Figure 1 in the Appendix is low resolution and the text is blurry.

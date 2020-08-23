@@ -1,5 +1,5 @@
 Title: Events
-Date: 2019-12-10
+Date: 2020-01-08
 save_as: events.html
 
 <!-- THIS PAGE SRC IS AUTO GENERATED. At terminal: $ make events -->
@@ -11,6 +11,86 @@ For the latest information about these events, click the links below or see the 
 <b>Reading group</b>: Interested research students are also invited to our machine learning reading group (we meet once a week). For details, please contact a faculty member.
 
 
+
+<a name='spring-2020'></a>
+<h2>Events: Spring 2020</h2>
+
+
+<div class="container">
+    <div class="row row-striped">
+        <div class="d-none d-sm-block col-sm-2 text-left">
+            <h2 class="pb-0 mb-0">MAR</h2>
+            <h1 class="pt-0 mt-0 display-4">
+            <span class="badge badge-secondary">
+                19
+            </span>
+            </h1>
+        </div>
+        <div class="col-12 col-sm-10">
+            <h3 class="mw-100">
+            <a href="https://tripods.tufts.edu/about/events/1st-tripods-ideas-lab">
+                <strong>
+                    Event: TRIPODS IDEAS Lab
+                </strong>
+            </a>
+            </h3>
+            <ul class="list-inline mw-100">
+                <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> 03/19 </li>
+                <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 9:00AM </li>
+                <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> TBD </li>
+                <li class="list-inline-item">
+                    <button type="button" class="btn btn-primary btn-xs"
+                        onclick="
+                            d=new Date('2020-03-19T09:00');
+                            downloadICS('TRIPODS IDEAS Lab','TBD',d,60);">
+                    Download .ics
+                    </button>
+                </li>
+            </ul>
+            <p>
+            Speaker: Several internal and external speakers
+            </p>
+        </div>
+    </div>
+
+
+    <div class="row row-striped">
+        <div class="d-none d-sm-block col-sm-2 text-left">
+            <h2 class="pb-0 mb-0">JAN</h2>
+            <h1 class="pt-0 mt-0 display-4">
+            <span class="badge badge-secondary">
+                31
+            </span>
+            </h1>
+        </div>
+        <div class="col-12 col-sm-10">
+            <h3 class="mw-100">
+            <a href="https://tripods.tufts.edu/about/events/tripods-launch-event">
+                <strong>
+                    Event: Launch of the NSF-funded TRIPODS institute at Tufts
+                </strong>
+            </a>
+            </h3>
+            <ul class="list-inline mw-100">
+                <li class="list-inline-item"><i class="fa fa-calendar-o" aria-hidden="true"></i> 01/31 </li>
+                <li class="list-inline-item"><i class="fa fa-clock-o" aria-hidden="true"></i> 9:00AM </li>
+                <li class="list-inline-item"><i class="fa fa-location-arrow" aria-hidden="true"></i> TBD </li>
+                <li class="list-inline-item">
+                    <button type="button" class="btn btn-primary btn-xs"
+                        onclick="
+                            d=new Date('2020-01-31T09:00');
+                            downloadICS('Launch of the NSF-funded TRIPODS institute at Tufts','TBD',d,60);">
+                    Download .ics
+                    </button>
+                </li>
+            </ul>
+            <p>
+            Speaker: Several internal and external speakers
+            </p>
+        </div>
+    </div>
+
+</div>
 
 <a name='fall-2019'></a>
 <h2>Events: Fall 2019</h2>

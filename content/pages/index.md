@@ -9,6 +9,50 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
+        Aug. 2020: Welcome Prof. Bert Huang
+    </h5>
+    <p class="card-text">Bert joins us as new faculty in the Computer Science dept. and the <a href="https://disc.tufts.edu/">Data Intensive Studies Center</a></p>
+    <a href="https://berthuang.com/" class="btn btn-primary">Meet Bert</a>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
+        Jan 2020: Launch of the T-TRIPODS Institute across Tufts
+    </h5>
+    <p class="card-text">
+      We are launching a new campus-wide initiative: The Tufts Transdisciplinary Research In Principles of Data Science Institute (T-TRIPODS). This will bring together interdisciplinary research across departments and schools at Tufts to advance the understanding of foundations of data science, with support from the National Science Foundation (NSF). The focus is on fostering collaboration between core methodologists in the CS, ECE, and Math departments on three targeted methodological areas: graph and tensor representations, spatiotemporal modeling, and providing assurances of quality, fairness, privacy and trust. The institute will also push those advances to impact key application areas across the university.
+    </p>
+    <p class="card-text">
+      More about the T-TRIPODS institute at Tufts:
+    </p>
+    <ul class="card-text">
+      <li>
+        <a href="https://tripods.tufts.edu/">T-TRIPODS website</a>.
+      </li>
+      <li>
+        <a href="https://now.tufts.edu/articles/tufts-awarded-nsf-grant-expand-big-data-innovation-and-discovery">TuftsNow article</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
+        Dec 2019: Several papers from Tufts accepted at AAAI 2020
+    </h5>
+    <p class="card-text">Prof. Liping Liu, students Gabriel Appleby and Linfeng Liu, and Prof. Avery Cohn wrote <a href="https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf">"Kriging Convolutional  Networks"</a>
+    </p>
+    <p class="card-text">Prof. Mike Hughes and several external colleagues have a paper <a href="https://www.michaelchughes.com/papers/WuParbhooHughesEtAl_AAAI_2020.pdf">Regional  Tree  Regularization  for  Interpretability  in  Deep  Neural  Networks</a>
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
         Nov 2019: Team research project on Open-World AI is funded by DARPA via the SAIL-ON program
     </h5>
     <p class="card-text">
@@ -25,7 +69,7 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
     <h5 class="card-title">
         Sep 2019: Prof. Liping Liu and Prof. Mike Hughes' project on inference for large graphical models is funded by NSF  
     </h5>
-    <p class="card-text">The project, titled by "Amortized Inference for Large-Scale Graphical Models", wins an NSF Small grant from the Division of Information and Intelligent Systems. Here is the 
+    <p class="card-text">The project, titled by "Amortized Inference for Large-Scale Graphical Models", wins an NSF Small grant from the Division of Information and Intelligent Systems. Here is the
     <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1908617">link</a>.
     </p>
   </div>
@@ -37,7 +81,7 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
     <h5 class="card-title">
         Mar 2019: Prof. Liping Liu's project on self-attention neural networks is funded by NSF  
     </h5>
-    <p class="card-text">The project, titled by "CRII: RI: Self-Attention through the Bayesian Lens", wins an NSF CRII grant. Here is the 
+    <p class="card-text">The project, titled by "CRII: RI: Self-Attention through the Bayesian Lens", wins an NSF CRII grant. Here is the
     <a href="https://www.nsf.gov/awardsearch/showAward?AWD_ID=1850358&HistoricalAwards=false">link</a>.
     </p>
   </div>
@@ -109,4 +153,3 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
     <a href="https://www.eecs.tufts.edu/~liulp/" class="btn btn-primary">Meet Liping</a>
   </div>
 </div>
-

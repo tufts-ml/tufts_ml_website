@@ -1,5 +1,5 @@
 Title: People
-Date: 2018-08-01
+Date: 2020-08-21
 save_as: people.html
 
 
@@ -11,9 +11,31 @@ save_as: people.html
 
 <div class="row display-flex">
 
-<div class="col-6 d-flex align-items-stretch"> 
+<div class="col-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto" src="images/headshots_200x200/mike.jpg" alt="Mike Hughes' headshot">
+  <img class="card-img-top" src="images/headshots_200x200/bert.jpg" alt="Bert Huang's headshot">
+    <div class="card-body">
+      <h4 class="card-title">Bert Huang</h4>
+      <p class="card-text">
+        <strong>Assistant Professor (CS)</strong>
+      </p>
+      <p class="card-text">
+        Interests: Structured prediction, weak supervision, algorithmic fairness
+      </p>
+      <p class="card-text">
+        Applications: social network analysis, cyberbullying detection, recommender systems
+      </p>
+      <p class="card-text">
+        Courses: TBA
+      </p>
+      <a href="https://berthuang.com" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
+
+<div class="col-4 d-flex align-items-stretch">
+  <div class="card bg-light my-3" style="border=0px;">
+  <img class="card-img-top" src="images/headshots_200x200/mike.jpg" alt="Mike Hughes' headshot">
     <div class="card-body">
       <h4 class="card-title">Mike Hughes</h4>
       <p class="card-text">
@@ -33,9 +55,9 @@ save_as: people.html
   </div>
 </div><!-- end col -->
 
-<div class="col-6 d-flex align-items-stretch"> 
+<div class="col-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto" src="images/headshots_200x200/liping.jpg" alt="Liping Liu's headshot">
+  <img class="card-img-top" src="images/headshots_200x200/liping.jpg" alt="Liping Liu's headshot">
     <div class="card-body">
       <h4 class="card-title">Liping Liu</h4>
       <p class="card-text">
@@ -62,9 +84,9 @@ save_as: people.html
 
 <div class="row display-flex">
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto" src="images/headshots_200x200/jivko.jpg" alt="Jivko Sinapov's Headshot"">
+    <img class="card-img-top" src="images/headshots_200x200/jivko.jpg" alt="Jivko Sinapov's Headshot"">
     <div class="card-body">
       <h4 class="card-title">Jivko Sinapov</h4>
       <p class="card-text">
@@ -85,9 +107,9 @@ save_as: people.html
 </div><!-- end col -->
 
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/matthias.jpg"
           alt="Matthias's Headshot">
     <div class="card-body">
@@ -108,16 +130,16 @@ theory
 </div><!-- end col -->
 
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto" src="images/headshots_200x200/james.jpg" alt="James Murphy's Headshot"">
+    <img class="card-img-top" src="images/headshots_200x200/james.jpg" alt="James Murphy's Headshot"">
     <div class="card-body">
       <h4 class="card-title">James Murphy</h4>
       <p class="card-text">
           <strong>Assistant Prof. (Mathematics)</strong>
       </p>
       <p class="card-text">
-          Interests: Harmonic analysis, high-dimensional statistics, statistical and machine learning, statistical signal processing, image processing 
+          Interests: Harmonic analysis, high-dimensional statistics, statistical and machine learning, statistical signal processing, image processing
       </p>
       <p class="card-text">
         Courses: <a href="https://jmurphy.math.tufts.edu/Teaching/Fall2018/"> MATH 123: Math Aspects of Data Analysis</a>
@@ -130,9 +152,9 @@ theory
 
 
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/deborah.jpg"
           alt="Deborah's Headshot">
     <div class="card-body">
@@ -148,9 +170,9 @@ theory
   </div>
 </div><!-- end col -->
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/shuchin.jpg"
           alt="Shuchin's Headshot">
     <div class="card-body">
@@ -166,9 +188,9 @@ theory
   </div>
 </div><!-- end col -->
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/eric.jpg"
           alt="Eric's Headshot">
     <div class="card-body">
@@ -184,9 +206,9 @@ theory
   </div>
 </div><!-- end col -->
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/alva.jpg"
           alt="Alva's Headshot">
     <div class="card-body">
@@ -203,9 +225,9 @@ theory
   </div>
 </div><!-- end col -->
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/anselm.jpg"
           alt="Anselm's Headshot">
     <div class="card-body">
@@ -230,9 +252,9 @@ theory
 
 <div class="row display-flex">
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/dbanco.jpg"
           alt="Dan Banco Headshot">
     <div class="card-body">
@@ -242,7 +264,7 @@ theory
           Machine learning, Imaging, Computer Vision
       </p>
       <p class="card-text">
-        Applications: 
+        Applications:
           Materials characterization, MRI
       </p>
       <a href="https://www.eecs.tufts.edu/~dbanco02/" class="btn btn-primary">Personal Site</a>
@@ -250,9 +272,9 @@ theory
   </div>
 </div><!-- end col -->
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/dylan.jpg"
           alt="Dylan Headshot">
     <div class="card-body">
@@ -264,7 +286,7 @@ theory
           Human-centered Model Selection
       </p>
       <p class="card-text">
-        Applications: 
+        Applications:
           Cybersecurity,
           Language
       </p>
@@ -273,9 +295,9 @@ theory
   </div>
 </div><!-- end col -->
 
-<div class="col-6 col-md-4 d-flex align-items-stretch"> 
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
-    <img class="card-img-top w-50 mx-auto"
+    <img class="card-img-top"
           src="images/headshots_200x200/kevin.jpg"
           alt="Kevin Headshot">
     <div class="card-body">
@@ -287,7 +309,7 @@ theory
           Signal and Image Processing
       </p>
       <p class="card-text">
-        Applications: 
+        Applications:
           Cognitive Science,
           System Modeling,
           Healthcare
