@@ -42,10 +42,10 @@ save_as: people.html
         <strong>Assistant Professor (CS)</strong>
       </p>
       <p class="card-text">
-        Interests: Bayesian nonparametrics, semi-supervised learning, variational inference, explainable AI
+        Interests: Bayesian nonparametrics, variational inference, explainable AI
       </p>
       <p class="card-text">
-        Applications: clinical informatics, human activity time-series
+        Applications: clinical informatics, human activity time series
       </p>
       <p class="card-text">
         Courses: Intro to ML, Bayesian Deep Learning
