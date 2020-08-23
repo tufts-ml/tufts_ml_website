@@ -11,7 +11,7 @@ save_as: people.html
 
 <div class="row display-flex">
 
-<div class="col-4 d-flex align-items-stretch">
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
   <img class="card-img-top" src="images/headshots_200x200/bert.jpg" alt="Bert Huang's headshot">
     <div class="card-body">
@@ -33,7 +33,7 @@ save_as: people.html
   </div>
 </div><!-- end col -->
 
-<div class="col-4 d-flex align-items-stretch">
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
   <img class="card-img-top" src="images/headshots_200x200/mike.jpg" alt="Mike Hughes' headshot">
     <div class="card-body">
@@ -42,20 +42,20 @@ save_as: people.html
         <strong>Assistant Professor (CS)</strong>
       </p>
       <p class="card-text">
-        Interests: Bayesian nonparametric models, semi-supervised learning, variational inference, explainable AI, fairness
+        Interests: Bayesian nonparametrics, semi-supervised learning, variational inference, explainable AI
       </p>
       <p class="card-text">
-        Applications: medical informatics, clinical decision-support, time-series analysis
+        Applications: clinical informatics, human activity time-series
       </p>
       <p class="card-text">
-        Courses: Intro to Machine Learning, Bayesian Deep Learning
+        Courses: Intro to ML, Bayesian Deep Learning
       </p>
       <a href="https://www.michaelchughes.com" class="btn btn-primary">Personal Site</a>
     </div>
   </div>
 </div><!-- end col -->
 
-<div class="col-4 d-flex align-items-stretch">
+<div class="col-6 col-md-4 d-flex align-items-stretch">
   <div class="card bg-light my-3" style="border=0px;">
   <img class="card-img-top" src="images/headshots_200x200/liping.jpg" alt="Liping Liu's headshot">
     <div class="card-body">
