@@ -9,6 +9,40 @@ Welcome to the homepage of the Machine Learning Research Group at Tufts Universi
 <div class="card">
   <div class="card-body">
     <h5 class="card-title">
+        Jan 2020: Launch of the T-TRIPODS Institute across Tufts
+    </h5>
+    <p class="card-text">
+      We are launching a new campus-wide initiative: The Tufts Transdisciplinary Research In Principles of Data Science Institute (T-TRIPODS). This will bring together interdisciplinary research across departments and schools at Tufts to advance the understanding of foundations of data science, with support from the National Science Foundation (NSF). The focus is on fostering collaboration between core methodologists in the CS, ECE, and Math departments on three targeted methodological areas: graph and tensor representations, spatiotemporal modeling, and providing assurances of quality, fairness, privacy and trust. The institute will also push those advances to impact key application areas across the university.
+    </p>
+    <p>
+      More about the T-TRIPODS institute at Tufts:
+    </p>
+    <ul>
+      <li>
+        <a href="https://tripods.tufts.edu/">T-TRIPODS website</a>.
+      </li>
+      <li>
+        <a href="https://now.tufts.edu/articles/tufts-awarded-nsf-grant-expand-big-data-innovation-and-discovery">TuftsNow article</a>
+      </li>
+    </ul>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
+        Dec 2019: Several papers from Tufts accepted at AAAI 2020
+    </h5>
+    <p class="card-text">Prof. Liping Liu, students Gabriel Appleby and Linfeng Liu, and Prof. Avery Cohn wrote <a href="https://aaai.org/Conferences/AAAI-20/wp-content/uploads/2020/01/AAAI-20-Accepted-Paper-List.pdf">"Kriging Convolutional  Networks"</a>
+    </p>
+    <p class="card-text">Prof. Mike Hughes and several external colleagues have a paper <a href="https://www.michaelchughes.com/papers/WuParbhooHughesEtAl_AAAI_2020.pdf">Regional  Tree  Regularization  for  Interpretability  in  Deep  Neural  Networks</a>
+    </p>
+  </div>
+</div>
+
+<div class="card">
+  <div class="card-body">
+    <h5 class="card-title">
         Nov 2019: Team research project on Open-World AI is funded by DARPA via the SAIL-ON program
     </h5>
     <p class="card-text">
