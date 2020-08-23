@@ -8,6 +8,7 @@ today_timestamp = datetime.datetime.today().strftime('%Y-%m-%d')
 
 ## TODO to add more event sections just update this list
 semname_and_csvfile_pairs = [
+    ('Fall 2020', 'courses_2020_fall.csv'),
     ('Spring 2020', 'courses_2020_spring.csv'),
     ('Fall 2019', 'courses_2019_fall.csv'),
     ('Spring 2019', 'courses_2019_spring.csv'),
