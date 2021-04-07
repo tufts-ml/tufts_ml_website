@@ -2,7 +2,7 @@
 
 Source code for the Tufts ML research group website from 2018-present.
 
-Serving the groups of Prof. Liping Liu and Prof. Mike Hughes.
+Serving the groups of Prof. Bert Huang, Prof. Liping Liu and Prof. Mike Hughes.
 
 ## Quick links
 
