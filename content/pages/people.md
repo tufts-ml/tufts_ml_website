@@ -318,6 +318,28 @@ theory
     </div>
   </div>
 </div><!-- end col -->
+  
+<div class="col-6 col-md-4 d-flex align-items-stretch">
+  <div class="card bg-light my-3" style="border=0px;">
+    <img class="card-img-top"
+          src="images/headshots_200x200/zhe.jpg"
+          alt="Kevin Headshot">
+    <div class="card-body">
+      <h4 class="card-title">Zhe Huang</h4>
+      <p class="card-text">
+        Interests:
+          Medical Imaging,
+          Machine Learning,
+      </p>
+      <p class="card-text">
+        Applications:
+          Healthcare,
+          Human Compute Interaction
+      </p>
+      <a href="#" class="btn btn-primary">Personal Site</a>
+    </div>
+  </div>
+</div><!-- end col -->
 
 </div> <!-- end row -->
 <br />
